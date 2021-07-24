@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+head {
+    margin: 0;
+    padding: 0;
+}
+#Nav_Bar {
+    background-color: #0D598F;
+    width: 96,48%;
+    margin: 0;
+    padding: 20pt absolute;
+    overflow: hidden;
+}
+#background {
+    background-color: #CCCCCC;
+    width: 100%;
+    height: max-content;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 20vw;
+}
+#hrvatska {
+    width: 32vw;
+    height: 24vw;
+    margin-left: 3.5vw;
+    margin-top: 4.1vw;
+    margin-right: 0;
+}
+#hrvatska:hover {
+    transition: 0.75s ease-in-out;
+    opacity: 0.6;
+}
+#waterfalls:hover {
+    transition: 0.75s ease-in-out;
+    opacity: 0.6;
+}
+#amalfi:hover {
+    transition: 0.75s ease-in-out;
+    opacity: 0.6;
+}
+#amalfi{
+    width: 32vw;
+    height: 24vw;
+    position: absolute;
+    margin-left: 0.3vw;
+    margin-top: 4.1vw;
+}
+#waterfalls {
+    width: 18vw;
+    height: 24vw;
+    margin-left: 0.4vw;
+    margin-right: 0.4vw;
+}
+h1 {
+    color:white;
+    font-size: 50px;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+h2 {
+    color: black;
+    font-size: 16 px;
+    font-family: 'Open Sans Condensed';
+}
+h3 {
+    color: black;
+    font-size: 16 px;
+    font-family: 'Roboto';
+    margin: 4pt;
+}
+h4 {
+    color: black;
+    font-size: 42px;
+    font-family: 'Work Sans';
+    margin: 4pt;
+    margin-left: 6vw;
+    margin-top: 2vw;
+    text-align: center;
+}
+h6 {
+    color: white;
+    font-size: 12pt;
+    font-family: "Roboto";
+}
+#Nav_Items {
+    list-style-type: none;
+    text-decoration: none;
+    float: right;
+    position:relative;
+    left: -9vw;
+    align-items: center;
+    margin-left: 0;
+    align-content: auto;
+}
+#Menus {
+    list-style-type: none;
+    text-decoration: none;
+    float: right;
+    position: relative;
+    align-items: center;
+    align-content: auto;
+    padding-top: 3%;
+}
+#Social_Medias {
+    list-style-type: none;
+    text-decoration: none;
+    float: right;
+    position:relative;
+    left: -7vw;
+    padding-top: 2%;
+    align-items: auto;
+}
+#LineBelowNav {
+    background: transparent;
+    width: 100%;
+    height: 3.5pt;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#logostuff {
+    margin-right: 18vw;
+    padding: 0;
+    text-justify: auto;
+}
+#Triangle {
+	width: 0;
+	height: 0;
+	border-left: 50vw solid transparent;
+	border-right: 50vw solid transparent;
+	border-top: 130px solid #0B2840;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -58px;
+}
+#MenuTitle {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 2vw;
+}
+.menu:hover {
+    transition: 0.25s ease;
+    opacity: 0.3;
+}
+.soc:hover {
+    transition: 0.5s ease;
+    opacity: 0.6;
+}
+#Logo {
+    width: 82px;
+    height: 82px;
+    float: left;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 2vw;
+    align-content: auto;
+    padding: 0;
+}
+#imageflex {
+    width: 24vw;
+    height: 12vw;
+    align-self: center;
+    justify-self: center;
+    margin-top: 1vw;
+    position: relative;
+    float: left;
+    margin-left: 0.5vw;
+}
+.container {
+    padding: 0;
+    margin-top: 0;
+    margin: auto;
+    align-content: center;
+}
+.flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding-right: 0;
+    margin: 0;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 6vw;
+    list-style: none;
+}
+.publication {
+    order: 3;
+    flex-basis: 20% auto;
+    align-self: auto;
+    flex: none;
+    background-color: #E38F12;
+    color: black;
+    font: "Work Sans";
+    font-size: 16pt;
+    width: 25vw;
+    height: 18vw;
+    font-weight: bold;
+    text-align: center;
+    text-justify: auto;
+    border: 2px groove #cf53018f;
+}
+#Name {
+    align-self: auto;
+    margin-left: 2%;
+    margin-bottom: 0;
+    margin-right: 0;
+    align-content: auto;
+    padding: 0;
+}
+#Description {
+    align-content: auto;
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+}
+#DescriptionBox {
+    width: 26vw;
+    height: 10vh;
+    position: relative;
+    margin: 0;
+}
+#Bottom {
+    background-color: #0B2840;
+    width: 100%;
+    height: 8vw;
+    border-top: 2px solid black;
+}
+li {
+    float: left;
+}
+li a {
+    text-decoration: none;
+    color:black;
+    font-size: 20pt;
+    padding: 10pt;
+}
+.circle {
+    opacity: 0.6;
+    height: 24vw;
+    width: 24vw;
+    border-radius: 50%;
+    text-align: end;
+    position: relative;
+    padding: 0;
+    margin-bottom: 6vw;
+    margin-top: 4vw;
+}
+.circletext {
+    top: 50%;
+    font-size: 20pt;
+    color: white;
+    font: "Work Sans";
+    margin: 0;
+    padding-top: 9.5vw;
+}
+#circlebox {
+    width: 20vw;
+    height: 24vw;
+    margin-left: 6vw;
+    margin-top: 0;
+    margin-right: 70vw;
+    margin-bottom: 6vw;
+    float: left;
+}
+.bottomlist {
+    font: "Roboto";
+    font-size: 12pt;
+    align-items: center;
+    justify-items: center;
+    align-self: center;
+    justify-self: center;
+    list-style: none;
+    margin-top: 2vw;
+    margin-left: 41vw;
+    position: absolute;
+}
+#copyright {
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 44.5vw;
+    text-align: center;
+}
+#contactbox {
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 5vw;
+    border-left: thin solid rgb(92, 92, 92);
+}
+#contactlist {
+    list-style: none;
+    float: left;
+    width: 100%;
+    padding: 0.4vw;
+}
+.contactitem {
+    width: 100%;
+}
+#pizzachampignons {
+    width: 21vw;
+    height: 28vw;
+    margin-left: 5vw;
+    margin-top: 2.5vw;
+    margin-right: 0;
+}
+#pizzafruits {
+    width: 21vw;
+    height: 28vw;
+    position: absolute;
+    margin-top: 2.5vw;
+    margin-left: 0.3vw;
+    margin-right: 5vw;
+    float: right;
+}
+#gateaucoco {
+    width: 37.33vw;
+    height: 28vw;
+    margin-left: 0.4vw;
+    margin-right: 0.4vw;
+}
+#gateaucoco:hover {
+    transition: 0.75s ease-in-out;
+    opacity: 0.6;
+}
+#pizzafruits:hover {
+    transition: 0.75s ease-in-out;
+    opacity: 0.6;
+}
+#pizzachampignons:hover {
+    transition: 0.75s ease-in-out;
+    opacity: 0.6;
+}
+/*DBDBDB CCCCCC E38F12 0D598F 0B2840*/
+/*Home, Contact, Blog, Resume*/
+/*:hover*/
+/*border radius=50% to a square to make a circle*/
+/* Adventure, Creativity, Helping the community*/

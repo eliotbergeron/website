@@ -1,0 +1,20 @@
+.resumep {
+    margin-left: 32vw;
+    margin-right: 0;
+    position: absolute;
+    font-family: "Roboto";
+    font-size: 16pt;
+    margin-right: 6vw;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+}
+#resumepbox {
+    width: 100vw;
+    margin-bottom: 4vw;
+}
+#jobs {
+    padding: 2vw;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 18pt;
+}
